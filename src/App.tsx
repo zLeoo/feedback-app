@@ -1,12 +1,7 @@
-import React from "react";
-import styled from "styled-components";
-
-const HelloWorld = styled.h1`
-  color: chocolate;
-`;
+import Table from "./components/Table";
 
 function App() {
-  return <HelloWorld>Teste</HelloWorld>;
+  return <Table />;
 }
 
 export default App;
